@@ -1,0 +1,179 @@
+.instagram
+  min-height: 964px
+  padding: 70px 0
+  font-weight: 600
+  font-family: "Gilroy", "Arial", sans-serif
+
+.instagram__wrapper
+  min-height: 514px
+  padding: 0 20px
+
+.instagram__title
+  margin: 0
+  margin-bottom: 28px
+  font-size: 12px
+  letter-spacing: 2px
+  text-transform: uppercase
+  color: $title-color
+
+.instagram__number
+  margin-right: 10px
+
+.instagram__content
+  max-width: 1024px
+  margin: 0 auto
+
+.instagram__subtitle
+  margin-bottom: 30px
+
+
+.instagram__subtitle-text
+  font-size: 28px
+  line-height: 40px
+  margin: 0
+
+.instagram__img
+  display: block
+
+.instagram__gallery
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+
+.instagram__col--left
+  order: 1
+
+.instagram__col--right
+  order: 2
+
+.instagram__obj-links
+  margin-top: 35px
+  order: 3
+  width: 100%
+
+.instagram__social
+  display: flex
+  justify-content: space-between
+
+.instagram__link
+  color: $black
+  text-decoration: none
+  font-size: 14px
+
+.instagram__link--subscribe
+  text-transform: uppercase
+  padding-bottom: 2px
+  font-size: 12px
+  border-bottom: 1px solid $black
+  letter-spacing: 0.5px
+
+.instagram__svg
+  margin-left: 5px
+  fill: $black
+
+.instagram__subtitle-img
+  display: none
+
+.instagram__logo
+  display: none
+
+.instagram__obj
+  width: 167px
+  height: 167px
+
+@media (max-width: 373px)
+  .instagram__img
+    margin-bottom: 5px
+
+    &:last-of-type
+      margin-bottom: 0
+
+@media (min-width: 768px)
+  .instagram__obj-links
+    order: 2
+    width: 374px
+
+
+  .instagram__obj--right
+    order: 3
+
+  .instagram__gallery
+    justify-content: space-between
+    flex-direction: row
+    flex-wrap: nowrap
+
+  .instagram
+    padding: 200px 0
+
+  .instagram__wrapper
+    max-width: 1024px
+    margin: 0 auto
+    padding: 0
+
+  .instagram__social
+    flex-direction: column
+    justify-content: flex-start
+    background: $black
+    min-height: 374px
+    padding-top: 70px
+    align-items: center
+
+  .instagram__logo
+    display: block
+    margin-bottom: 30px
+
+  .instagram__col
+    display: flex
+    flex-direction: column
+
+  .instagram__col--right
+    align-items: flex-start
+
+  .instagram__col--left
+    align-items: flex-end
+
+
+  .instagram__obj
+    object-fit: cover
+    width: 265px
+    height: 265px
+    margin-bottom: 60px
+    &:last-of-type
+      margin-bottom: 0
+
+  .instagram__obj--small
+    width: 108px
+    height: 108px
+
+  .instagram__img
+    width: 100%
+
+  .instagram__subtitle-text
+    font-size: 44px
+
+  .instagram__title
+    margin-bottom: 60px
+
+  .instagram__subtitle-text
+    line-height: 60px
+
+  .instagram__subtitle
+    margin-bottom: 57px
+    display: flex
+    justify-content: space-between
+    padding-right: 110px
+
+  .instagram__subtitle-img
+    display: block
+    margin-top: 17px
+
+  .instagram__link
+    color: $white
+    margin-bottom: 65px
+
+  .instagram__link--subscribe
+    border-bottom: 1px solid $white
+    margin: 0
+
+  .instagram__svg
+    fill: $white
